@@ -3,7 +3,7 @@ resource "aws_vpc" "terraform_vpc" {
   instance_tenancy = "default"
 
   tags = {
-    Name = "tf-vpc-igw"
+    Name = "tf-vpc"
   }
 }
 
