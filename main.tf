@@ -4,6 +4,7 @@ resource "aws_vpc" "terraform_vpc" {
 
   tags = {
     Name = "tf-vpc"
+    CC = "123456"
   }
 }
 
