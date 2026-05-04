@@ -156,3 +156,4 @@ resource "aws_route_table_association" "private_1b_association" {
   subnet_id      = aws_subnet.subnet_private_1b.id
   route_table_id = aws_route_table.tf_private_rt_1b.id
 }
+
